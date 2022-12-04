@@ -11,6 +11,9 @@ public class Main {
         employees[7] = new Employee("Карбов", "Максим", "Александрович", 1, 43500);
         employees[8] = new Employee("Шукшин", "Борис", "Петрович", 1, 33500);
         employees[9] = new Employee("Абабуров", "Асхат", "Бейринбекович", 3, 61330);
+
+        employees[2].setEmployeeSalary(88777);
+        employees[5].setEmployeeDepartment(1);
         EmployeeService.printListEmployees(employees);
         EmployeeService.printSalarySum(employees);
         EmployeeService.findMinEmployeeSalary(employees);
